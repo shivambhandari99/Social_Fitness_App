@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/welcome_text"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_browse_workout_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/browse_workout_string" />
+
+    <TextView
+        android:id="@+id/congrats_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/congrats_text"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/previous_workout_text"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/rectange_gray"
+        android:text="@string/previous_workout_text" />
+
+    <TextView
+        android:id="@+id/leaderboard_text"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/rectange_gray"
+        android:text="@string/leaderboard_text" />
+
+    <TextView
+        android:id="@+id/recommend_workout_text"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/rectange_gray"
+        android:text="@string/recommended_workout_text" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="115dp"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addWorkout"
+        android:layout_width="100dp"
+        android:layout_height="1000dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="585dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="555dp"
+        android:text="@string/create_workout_string"
+        android:textSize="13sp" />
+
+</RelativeLayout>

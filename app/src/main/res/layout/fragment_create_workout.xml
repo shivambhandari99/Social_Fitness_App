@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/title1"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="0dp"
+        android:background="@null"
+        android:hint="@string/add_workout_header_text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/details1"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="45dp"
+        android:hint="@string/add_workout_text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/title2"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="100dp"
+        android:background="@null"
+        android:hint="@string/add_exercise_text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/details2"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="145dp"
+        android:hint="@string/add_workout_text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/title3"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="200dp"
+        android:background="@null"
+        android:hint="@string/add_exercise_text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/details3"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="245dp"
+        android:hint="@string/add_workout_text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/title4"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="300dp"
+        android:background="@null"
+        android:hint="@string/add_exercise_text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/details4"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="345dp"
+        android:hint="@string/add_workout_text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/title5"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="400dp"
+        android:background="@null"
+        android:hint="@string/add_video_header_text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/details5"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="445dp"
+        android:hint="@string/add_video_text"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_publish_create_workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/publish_text" />
+
+</RelativeLayout>

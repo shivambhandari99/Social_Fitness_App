@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/level_text"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_browse_workout_leaderboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/browse_workout_string" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="48dp"
+        android:text="@string/eight_text"
+        android:background="@drawable/rectangle_green"
+        android:textSize="25sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="298dp"
+        android:text="@string/two_text"
+        android:background="@drawable/rectangle_purple"
+        android:textSize="25sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="185dp"
+        android:text="@string/number_of_workouts_complete_text"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="285dp"
+        android:text="@string/friends_text"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/peter_profile"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="335dp"
+        android:text="@string/peters_level_text"
+        android:background="@drawable/rectangle_red"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/daniel_profile"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="395dp"
+        android:textSize="25sp"
+        android:background="@drawable/rectangle_red"
+        android:text="@string/daniels_level_text" />
+
+    <TextView
+        android:id="@+id/jordyn_profile"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="455dp"
+        android:textSize="25sp"
+        android:background="@drawable/rectangle_red"
+        android:text="@string/jordyns_level_text" />
+
+    <TextView
+        android:id="@+id/fadi_profile"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="515dp"
+        android:textSize="25sp"
+        android:background="@drawable/rectangle_red"
+        android:text="@string/fadis_level_text" />
+
+</RelativeLayout>

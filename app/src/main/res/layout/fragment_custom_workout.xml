@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/custom_workout_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Title Placeholder"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/custom_workout_body"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rectange_gray"
+        android:text="Placeholder Text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/custom_comments_header"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="480dp"
+        android:text="@string/comments_header"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/custom_comments_section"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/rectange_gray"
+        android:text="@string/no_comments"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/custom_add_comment"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="610dp"
+        android:text="@string/add_comment" />
+
+    <Button
+        android:id="@+id/custom_view_creator"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="690dp"
+        android:text="@string/view_creator" />
+
+    <Button
+        android:id="@+id/custom_log_workout"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="690dp"
+        android:text="@string/log_workout" />
+
+</RelativeLayout>

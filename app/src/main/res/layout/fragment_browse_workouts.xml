@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/regimen_text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/jacobs_workout_browse"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/rectange_gray"
+        android:text="@string/jacob_workout_text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fadis_workout_browse"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="155dp"
+        android:background="@drawable/rectange_gray"
+        android:text="@string/fadi_workout_text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/jordyns_workout_browse"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="255dp"
+        android:background="@drawable/rectange_gray"
+        android:text="@string/jordyn_workout_text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/peters_workout_browse"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="355dp"
+        android:background="@drawable/rectange_gray"
+        android:text="@string/peter_workout_text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/daniel_workout_browse"
+        android:layout_width="260dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="455dp"
+        android:background="@drawable/rectange_gray"
+        android:text="@string/daniel_workout_text"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/like_button_jacob"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="55dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_thumb_up" />
+
+    <ImageButton
+        android:id="@+id/like_button_fadi"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="155dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_thumb_up" />
+
+    <ImageButton
+        android:id="@+id/like_button_jordyn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="255dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_thumb_up" />
+
+    <ImageButton
+        android:id="@+id/like_button_peter"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="355dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_thumb_up" />
+
+    <ImageButton
+        android:id="@+id/like_button_daniel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="455dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_thumb_up" />
+
+    <ImageButton
+        android:id="@+id/dislike_button_jacob"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="55dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_thumb_down" />
+
+    <ImageButton
+        android:id="@+id/dislike_button_fadi"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="155dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_thumb_down" />
+
+    <ImageButton
+        android:id="@+id/dislike_button_jordyn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="255dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_thumb_down" />
+
+    <ImageButton
+        android:id="@+id/dislike_button_peter"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="355dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_thumb_down" />
+
+    <ImageButton
+        android:id="@+id/dislike_button_daniel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="455dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_thumb_down" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/one_thousand_three_hundred_and_twenty_five_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="312dp"
+        android:layout_marginTop="190dp"
+        android:text="@string/ninety_three_thousand_two_hundred_and_seventy_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="290dp"
+        android:text="@string/one_thousand_two_hundred_and_fifty_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="390dp"
+        android:text="@string/one_thousand_three_hundred_and_twenty_five_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="312dp"
+        android:layout_marginTop="490dp"
+        android:text="@string/thirty_eight_thousand_two_hundred_and_fifty_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/two_hundred_and_seventy_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="190dp"
+        android:text="@string/twenty_nine_thousand_eight_hundred_and_seventy_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="290dp"
+        android:text="@string/ninety_seven_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="390dp"
+        android:text="@string/seven_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="490dp"
+        android:text="@string/six_hundred_and_thirty_seven_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="545dp"
+        android:text="@string/create_workout_string"
+        android:textSize="13sp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addWorkout_browse_page"
+        android:layout_width="100dp"
+        android:layout_height="1000dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="575dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+
+</RelativeLayout>

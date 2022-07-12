@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--android:background="@android:color/holo_green_light"-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/ideaview_logged"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="@string/listoflogged"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/jacobs_workout_recent"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="75dp"
+                android:background="@drawable/rectange_gray"
+                android:text="@string/jacob_workout_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/fadis_workout_recent"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="135dp"
+                android:background="@drawable/rectange_gray"
+                android:text="@string/fadi_workout_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/jordyns_workout_recent"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="195dp"
+                android:background="@drawable/rectange_gray"
+                android:text="@string/jordyn_workout_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/peters_workout_recent"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="255dp"
+                android:background="@drawable/rectange_gray"
+                android:text="@string/peter_workout_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/daniel_workout_recent"
+                android:layout_width="260dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="315dp"
+                android:background="@drawable/rectange_gray"
+                android:text="@string/daniel_workout_text"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

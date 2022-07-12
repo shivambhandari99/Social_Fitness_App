@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">CSCI5115 Ground App</string>
+
+    <!-- Text View Strings For Home Page-->
+    <string name="welcome_text"><b>Welcome Back Jacob!</b></string>
+    <string name="congrats_text"><b>Congratulations on your 23 day streak.\nYou\'re awesome!</b></string>
+    <string name="previous_workout_text"><b><u>Previous Workout</u>\n\n Peter\'s One Punch Workout\n</b>
+        1 hour; average; full body</string>
+    <string name="leaderboard_text"><b><u>Leaderboard</u>\n\n You\'re on Level 4!\n</b>
+        You\'re two workouts away from leveling up!</string>
+    <string name="recommended_workout_text"><b><u>Recommended Workout</u>\n\n Fadi\'s 5 Moves Total Workout\n</b>
+        30 minutes; average; full body</string>
+
+    <!-- Text View Strings For Leaderboard Page-->
+    <string name="level_text"><b>You\'re on level 4!</b></string>
+    <string name="number_of_workouts_complete_text"><b>8 workouts done! 2 more to level up!</b></string>
+    <string name="friends_text"><b><u>Friends</u></b></string>
+    <string name="peters_level_text"><b>Peter\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   Level 7</b></string>
+    <string name="daniels_level_text"><b>Daniel\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Level 3</b></string>
+    <string name="jordyns_level_text"><b>Jordyn\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLevel 9</b></string>
+    <string name="fadis_level_text"><b>Fadi\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLevel 4</b></string>
+
+    <!-- Text View Strings For Browse Workout Page-->
+    <string name="regimen_text"><b><u>Find Your New Regimen</u></b></string>
+    <string name="jacob_workout_text"><b>Jacob\'s Cool Workout!!</b>\n1 hour; average; full body</string>
+    <string name="fadi_workout_text"><b>Fadi\'s 5 Moves Total Wo...</b>\n30 minutes; average; full body</string>
+    <string name="jordyn_workout_text"><b>Jordyn\'s Bicep Breaker</b>\n30-45 minutes; strenuous; arms</string>
+    <string name="peter_workout_text"><b>Peter\'s One Punch Workout</b>\n1 hour; average; full body</string>
+    <string name="daniel_workout_text"><b>Daniel\'s Stretch Your Back</b>\n30-45 minutes; light weight; full-body</string>
+
+    <!-- Text View Strings For Create Workout Page-->
+    <string name="add_workout_header_text"><b>Add Work Out Title</b></string>
+    <string name="add_exercise_text"><b>Add Exercise Name</b></string>
+    <string name="add_workout_text">Add Details</string>
+    <string name="add_video_header_text"><b>Add Video Title</b></string>
+    <string name="add_video_text">Add Link</string>
+    <string name="publish_text">Publish The Workout</string>
+
+    <!-- Text View Strings For Return To Profile Page-->
+    <string name="workout_published_text"><b>Workout Published Return To Your Profile To See The Workout</b></string>
+    <string name="return_to_profile_text">Return To Your Profile</string>
+
+    <!-- Text View Strings For Daniel Profile Page-->
+    <string name="daniel_text"><b>Daniel</b></string>
+    <string name="daniel_description_text">Certified Yoga Trainer\nCurrently in Singapore, Singapore</string>
+    <string name="daniel_follower_text"><b>3,583</b> followers | <b>8,701</b> views \n <b>1</b> Workouts</string>
+
+    <!-- Text View Strings For Jordyn Profile Page-->
+    <string name="jordyn_text"><b>Jordyn</b></string>
+    <string name="jordyn_description_text">Aspiring Fitness Trainer\nCurrently in Miami, US</string>
+    <string name="jordyn_follower_text"><b>105</b> followers | <b>39,701</b> views \n <b>1</b> Workouts</string>
+
+    <!-- Text View Strings For Jacob Profile Page-->
+    <string name="jacob_text"><b>Jacob</b></string>
+    <string name="jacob_description_text">Computer Scientist\nCurrently in Minneapolis, US</string>
+    <string name="jacob_follower_text"><b>10</b> followers | <b>301</b> views \n <b>1</b> Workouts</string>
+
+    <!-- Text View Strings For Fadi Profile Page-->
+    <string name="fadi_text"><b>Fadi</b></string>
+    <string name="fadi_description_text">Multidisciplinary Designer And Fitness Enthusiast\nCurrently in Minneapolis, US</string>
+    <string name="fadi_follower_text"><b>80</b> followers | <b>290</b> views \n <b>1</b> Workouts</string>
+
+    <!-- Text View Strings For Peter Profile Page-->
+    <string name="peter_text"><b>Peter</b></string>
+    <string name="peter_description_text">Computer Scientist\nCurrently in Minneapolis, US</string>
+    <string name="peter_follower_text"><b>10</b> followers | <b>301</b> views \n <b>1</b> Workouts</string>
+
+    <string name="user_follower_text"><b>0</b> followers | <b>0</b> views \n <b>0</b> Workouts</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Button Strings-->
+    <string name="browse_workout_string">Browse Workout</string>
+    <string name="view_more_button_string">View More</string>
+    <string name="logout_button_string">Logout</string>
+
+
+    <!-- General Strings-->
+    <string name="created_workout_string"><b><u>Created Workout</u></b></string>
+    <string name="recent_workout_string"><b><u>Recent Workout</u></b></string>
+    <string name="create_workout_string"><b>Create Workout</b></string>
+
+
+    <!-- Number Strings-->
+    <string name="eight_text"><b>8</b></string>
+    <string name="two_text"><b>2</b></string>
+    <string name="one_thousand_three_hundred_and_twenty_five_text">1,325</string>
+    <string name="two_hundred_and_seventy_text">270</string>
+    <string name="ninety_three_thousand_two_hundred_and_seventy_text">93,270</string>
+    <string name="twenty_nine_thousand_eight_hundred_and_seventy_text">29</string>
+    <string name="one_thousand_two_hundred_and_fifty_text">1,250</string>
+    <string name="ninety_seven_text">97</string>
+    <string name="nine_hundred_thirty_seven_text">937</string>
+    <string name="seven_text">7</string>
+    <string name="thirty_eight_thousand_two_hundred_and_fifty_text">38,250</string>
+    <string name="six_hundred_and_thirty_seven_text">637</string>
+
+    <!-- Workout Strings -->
+    <string name="comments_header">Comments</string>
+    <string name="no_comments">No comments yet. Be the first!</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="view_creator">View Creator</string>
+    <string name="log_workout">Log Workout</string>
+    <string name="jacob_workout_description">
+        <b>Bicep Dumbbell Curls</b>\n
+        Three Sets with: 10, 8, 6 reps\n\n
+
+        Instructions:\n
+        - Keep elbows locked in close to your body.\n
+        - Progressively go up in weight each set.\n
+        - Try to feel like you are squeezing at the top of the rep.\n\n
+
+        <b>Hammer Curls</b>\n
+        Three Sets with: 15, 12, 10 reps\n\n
+
+        Instructions:\n
+        - Keep elbows locked in close to your body.\n
+        - Progressively go up in weight each set.
+    </string>
+    <string name="jordyn_workout_description">
+        <b>Bicep Dumbbell Curls</b>\n
+        Three Sets with: 10, 8, 6 reps\n\n
+
+        Instructions:\n
+        - Keep elbows locked in close to your body.\n
+        - Progressively go up in weight each set.\n
+        - Try to feel like your are squeezing at the top of the rep.\n\n
+
+        <b>Flat Bar Burnout</b>\n
+        Four Sets with: Get as many reps as possible until failure.\n\n
+
+        Instructions:\n
+        - Keep elbows locked in close to your body.\n
+        - Slowly bring the bar up and down every set.\n
+        - Don\'t swing your body to get more reps.
+    </string>
+    <string name="peter_workout_description">
+        Disclaimer: This is an intense workout and is not very beginner friendly. It\'s also not a very well balanced workout as it\'s based on the character Saitama.\n\n
+
+        <b>Situps</b>\n
+        100 reps\n\n
+
+        <b>Pushups</b>\n
+        100 reps\n\n
+
+        <b>Squats</b>\n
+        100 Reps\n\n
+
+        <b>Long Distance Run</b>\n
+        10 km (6.2 miles)
+    </string>
+    <string name="fadi_workout_description">
+        <b>Cat-Cow</b>\n
+        Instructions:\n
+        - Place your wrists underneath your shoulders and your knees underneath your hips.\n
+        - Balance your weight evenly between all four points.\n
+        - Inhale as you look up and let your stomach drop down toward the mat.\n
+        - Exhale as you tuck your chin into your chest, draw your navel toward your spine, and arch your spine toward the ceiling.\n
+        - Maintain awareness of your body as you do this movement.
+    </string>
+    <string name="daniel_workout_description">
+        <b>Stretch your back</b>\n
+        The only step in this workout is to stretch your back. Feels nice, right?
+    </string>
+
+    <!-- Login Screen Stuff -->
+    <string name="lgf"><b>Let\'s Get Fit!</b></string>
+    <string name="create_account"><b>Create an Account</b></string>
+    <string name="login">Login</string>
+    <string name="input_user">Input Username</string>
+    <string name="input_email">Input Email</string>
+    <string name="input_password">Input Password</string>
+    <string name="password_hint">Passwords must be 8 characeters or longer, and contain at least one capital letter and symbol.</string>
+
+    <!-- List of User Created Workout Strings -->
+    <string name="listofcreated"><u>List of Created Workouts</u></string>
+    <string name="listoflogged"><u>List of Logged Workouts</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- List of comments created -->
+    <string name="list_of_comment"><u>List of Comments Created</u></string>
+    <string name="list_create_workouts"><b><u>List of Created Workouts</u></b></string>
+
+    <string name="recent_workouts_text"><b>Recent Workouts</b></string>
+
+    <!-- Search -->
+    <string name="search_hint"><b>Search Here</b></string>
+    <string name="search_button"><b>Search</b></string>
+    <string name="search_not_found"><b>User Not Found</b></string>
+
+</resources>
