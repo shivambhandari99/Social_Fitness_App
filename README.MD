@@ -72,7 +72,7 @@ Ideation
 
 ![](img/Milestone%203%20Presentation%202-11.png)
 
-# Final App
+# Final App Demo
 
 [![Watch the video](https://img.youtube.com/vi/h4lXX6Hg3Rg/maxresdefault.jpg)](https://youtu.be/h4lXX6Hg3Rg)
 
